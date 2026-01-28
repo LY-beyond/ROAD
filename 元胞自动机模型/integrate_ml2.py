@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 from bayesian_optimization import BayesianParameterOptimizer
+from bayes_opt.util import UtilityFunction
 from CA import TrafficCA, TrafficVisualizer
 from tqdm import tqdm
 import warnings
